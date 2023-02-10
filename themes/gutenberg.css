@@ -1,0 +1,45 @@
+html {
+    background-color: #fbf2dd;
+}
+
+p {
+    color: black;
+    font-family: papyrus;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 0.75em;
+    text-align: justify;
+    margin-bottom: 0.75em;
+    text-indent: 1em
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%
+    }
+
+h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+        clear: both;
+        font-style:italic;
+        font-size: 200%;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-weight: 100;
+}
+
+img {
+    /* filter: invert(89%) sepia(14%) saturate(335%) hue-rotate(335deg) brightness(108%) contrast(98%); */
+    /* border: 2px solid black; */
+    border-style: inset;
+    border-radius: 20%;
+    filter: brightness(90%) contrast(70%)
+}
+
+table {
+    color: black;
+    font-family: papyrus;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 100%;
+}
