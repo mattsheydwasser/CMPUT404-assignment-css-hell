@@ -1,15 +1,17 @@
 html {
     /* background-color: rgb(37, 36, 36); */
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(100, 100, 100);
     
 }
 body {
     max-width: 1000px;
     height:90%;
-    width:90vw;
+    width:85vw;
     margin: auto;
     font-family:'Times New Roman';
-    background-color: #04a2ec00;
+    background-color: rgb(100, 100, 100);
+
+    /* background-color: #04a2ec00; */
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     margin-top:10pt;
     
@@ -19,7 +21,7 @@ div.logo {
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     height:90%;
-    width:90vw;
+    width:85vw;
     margin: auto;
     background-color: rgb(75, 75, 75);
     max-width: 1000px;
@@ -43,13 +45,15 @@ nav {
     margin:auto;
     display:flex;
     background-image: linear-gradient(#313131, #4d4d4d);
-    width:90vw;
+    width:85vw;
     padding-bottom:1.5pt;
     padding-top:1.5pt;
-    margin-top: 5pt;
-    margin-bottom:5pt;
+    margin-top: 10pt;
+    margin-bottom:10pt;
     max-width: 1000px;
 
+    position: sticky;
+    top:0px;
     
 }
 nav ul {
@@ -86,16 +90,19 @@ nav ul li a:hover {
 div#content {
     width:77%;
     margin:0;
-    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: transparent;
+    /* box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 #container {
-    
+
     display: flex;
     justify-content: center;
     background-color: rgb(250, 233, 233);
-    margin-bottom:5pt;
-    border-radius:2pt;
-    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:15pt;
+    margin-right:8pt;
+
+    border-radius:3pt;
+    box-shadow: 4px 8px 24px 12px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 800px;
 }
 
@@ -103,20 +110,19 @@ div#content {
 img {
     max-width: 100%;
     display: block;
+    border-radius:10pt;
 }
 
 #image {
-    margin: auto;
+    
     width:fit-content;
-   
+    padding:15pt;
     max-width:185px;
 }
 
 #paragraph {
-    margin:auto;
-    margin-left:-20pt;
-    padding:20pt;
-    
+    padding:15pt;
+    margin-right:10pt;
     max-width: 425px;
 }
 #paragraph h1 {
@@ -133,16 +139,25 @@ img {
 .mainpage {
     font-size: clamp(1px, 2vw, 20px);
     display: flex;
-    background-image: linear-gradient(#4d4d4d, #313131);
 
+    /* background-image: linear-gradient(#4d4d4d, #313131); */
+    background-color: transparent;
 }
 
 div.sidebar {
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     margin-left:5pt;
+    margin-bottom:15pt;
     padding-left:5pt;
     width:23%;
     background-color: rgb(183, 172, 172);
     border-radius:2pt;
+    
+}
+
+div.sidebar ul {
+    list-style-type: none;
+    padding:10pt;
+    margin:0pt;
 }
