@@ -1,5 +1,7 @@
 html {
-    background-color: rgb(120, 120, 120); 
+    /* background-color: rgb(120, 120, 120); */
+    background-image: linear-gradient(90deg, #626262 clamp(10%, 85vw, 60%), #44ccb0 100%);
+
 }
 
 body {
@@ -8,7 +10,8 @@ body {
     width:85vw;
     margin: auto;
     font-family:'Times New Roman';
-    background-color: rgb(120, 120, 120); 
+    /* background-color: rgb(120, 120, 120);  */
+    background: transparent;
     margin-top:10pt;
 }
 
@@ -34,7 +37,7 @@ nav {
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin:auto;
     display:flex;
-    background-image: linear-gradient(#252525, #404040);
+    background-image: linear-gradient(#1d1d1d, #353535);
     width:85vw;
     padding-bottom:2.5pt;
     padding-top:2.5pt;
@@ -96,7 +99,7 @@ div#content a, a#home{
     background-color: rgb(250, 233, 233);
     margin-bottom:15pt;
     margin-right:8pt;
-    border-radius:3pt;
+    border-radius:3pt;    
     box-shadow: 4px 8px 24px 12px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 800px;
 }
