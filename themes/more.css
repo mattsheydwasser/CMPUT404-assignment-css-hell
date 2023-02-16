@@ -79,29 +79,24 @@ nav ul li a:hover {
     background-color: #04a4ec;
     border-radius: 5pt;
 }
-
+/* 
 div#content {
     width:77%;
     margin:0;
     background-color: transparent;
 
-}
+} */
 
-div#content a, a#home{
+/* div#content a, a#home{
     display: block;
     padding-top: 35pt;
     margin-top: -35pt;
-}
+} */
 
 #container {
     display: flex;
     justify-content: center;
-    background-color: rgb(250, 233, 233);
-    margin-bottom:15pt;
-    margin-right:8pt;
-    border-radius:3pt;    
-    box-shadow: 4px 8px 24px 12px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 800px;
+    /* max-width: 800px; */
 }
 
 
@@ -113,14 +108,16 @@ img {
 
 #image {
     width:fit-content;
-    padding:15pt;
-    max-width:185px;
+    padding:10pt;
+    max-width:285px;
+    margin:auto;
 }
 
 #paragraph {
     padding:15pt;
-    margin-right:10pt;
-    max-width: 425px;
+    margin-left:20pt;
+    max-width: 525px;
+    
 }
 
 #paragraph h1 {
@@ -134,25 +131,12 @@ img {
     line-height: 15pt;
 }
 
+
 .mainpage {
     font-size: clamp(1px, 2vw, 20px);
-    display: flex;
-    background-color: transparent;
-}
-
-div.sidebar {
-    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left:5pt;
-    margin-bottom:15pt;
-    padding-left:5pt;
-    width:23%;
-    background-color: rgb(183, 172, 172);
-    border-radius:2pt;
-    
-}
-
-div.sidebar ul {
-    list-style-type: none;
-    padding:10pt;
-    margin:0pt;
+    height:80%;
+    margin-bottom: 20pt;
+    background-color: rgb(250, 233, 233);
+    border-radius:3pt;    
+    box-shadow: 4px 8px 24px 12px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
