@@ -23,4 +23,7 @@ Code is licensed under the Apache 2.0 license.
 
 Creative content is copyright Matthew Sheydwasser (C) 2023 under CC-BY-ND 2.0 license.
 
+Changes made to Gutenberg files:
+Any styling within the Gutenberg file that I changed with my css stylesheet has been commented out within the Gutenberg files as to not conflict.
+
 
