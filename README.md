@@ -21,4 +21,6 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Creative content is copyright Matthew Sheydwasser (C) 2023 under CC-BY-ND 2.0 license.
+
 

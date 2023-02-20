@@ -161,3 +161,23 @@ div.sidebar ul {
 #footer-right {
     float:right;
 }
+
+h2 {
+    text-align: center;
+    margin:10pt;
+    padding-bottom:15pt;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+div.sidebar ul li {
+    padding-bottom: 15pt;;
+}
+
+div.sidebar ul h3 {
+    padding-bottom:3pt;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+div.sidebar ul img {
+    padding-bottom: 15pt;;
+}

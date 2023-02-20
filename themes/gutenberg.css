@@ -1,7 +1,10 @@
 html {
     background-color: #fbf2dd;
 }
+div {
+    font-family: Brush Script MT, Brush Script Std, cursive;
 
+}
 p {
     color: black;
     font-family: papyrus;
