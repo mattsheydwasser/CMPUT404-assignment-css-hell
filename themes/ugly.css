@@ -1,0 +1,128 @@
+html {
+    background-color: blueviolet;
+    cursor:crosshair;
+    
+}
+div.logo {
+    height:70%;
+    width:70vw;
+    margin: auto;
+    padding: 40pt 0;
+    background-color: rgb(255, 94, 94);
+    max-width: 1000px;
+    text-align: center;
+}
+
+div.logo h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5vw;
+}
+nav {
+    margin:auto;
+    display:flex;
+    width:85vw;
+    padding-bottom:2.5pt;
+    padding-top:2.5pt;
+    margin-top: 10pt;
+    margin-bottom:10pt;
+    max-width: 1000px;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left:10pt;
+    padding-right:10pt;
+    max-width: 170px;
+
+}
+
+nav ul li a {
+    background-color: #a3a3a3;
+    color: white;
+    padding-left:5pt;
+    padding-right:5pt;
+    padding-top:1.5pt;
+    padding-bottom:1.5pt;
+    font-size: clamp(1px, 3vw, 30px);
+    text-decoration:overline;
+}
+
+nav ul li a:hover {
+    color: black;
+    border:2px;
+    border-style:solid;
+    border-color:rgb(242, 255, 0);
+    background-color: rgb(4, 4, 4);
+    border-radius: 5pt;
+    cursor: crosshair;
+    color:darkblue;
+}
+
+body {
+    border:4pt dotted yellow;
+    max-width: 1000px;
+    height:90%;
+    width:65vw;
+    margin: auto;
+    font-family:fantasy;
+    /* background-color: rgb(120, 120, 120);  */
+    background: transparent;
+    margin-top:10pt;
+}
+
+
+.mainpage {
+    font-size: 12pt;
+    display: flex;
+    background-color: transparent;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgb(72, 57, 57);
+    max-width: 800px;
+}
+
+#paragraph {
+    padding:15pt;
+    margin-right:10pt;
+    max-width: 425px;
+}
+#paragraph p {
+    line-height: 15pt;
+}
+img {
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    border-style:dashed;
+    border:15px solid rgb(228, 65, 65);
+    padding:10pt;
+}
+
+div.sidebar {
+    margin-bottom:15pt;
+    width:23%;
+    background-color: rgb(157, 18, 148);
+    
+}
+
+div.sidebar ul {
+    list-style-type: none;
+    padding:10pt;
+    margin:0pt;
+}
+
+div.sidebar ul img {
+    padding-bottom: 35pt;;
+}
+div.sidebar ul li {
+    padding-bottom: 55pt;;
+}
